@@ -51,7 +51,8 @@ class FeaturesContentResponsive extends StatelessWidget {
             Container(
               width: 800,
               height: 450,
-              child: HtmlElementView(viewType: 'youtube-video', key: UniqueKey()),
+              child:
+                  HtmlElementView(viewType: 'youtube-video', key: UniqueKey()),
             )
           ],
         ),
