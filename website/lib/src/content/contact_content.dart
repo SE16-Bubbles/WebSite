@@ -1,7 +1,7 @@
 import 'dart:html';
 import 'dart:ui' as ui;
 
-import 'package:basic_landing_webpage/src/widgets/responsive_widget.dart';
+import '.../src/widgets/responsive_widget.dart';
 import 'package:flutter/material.dart';
 
 const address =
