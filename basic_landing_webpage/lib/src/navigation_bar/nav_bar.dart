@@ -39,7 +39,7 @@ class DesktopNavBar extends HookConsumerWidget {
             ),
             SizedBox(width: 10.0),
             Text(
-              "Company Name",
+              "Bubble",
               style: TextStyle(
                 fontWeight: FontWeight.w700,
                 color: Colors.black87,
@@ -54,7 +54,7 @@ class DesktopNavBar extends HookConsumerWidget {
             NavBarButton(
               onTap: () =>
                   ref.read(currentPageProvider.state).state = featureKey,
-              text: "Features",
+              text: "Feature",
             ),
             NavBarButton(
               onTap: () =>
