@@ -44,16 +44,48 @@ class DesktopHomeContent extends StatelessWidget {
                 ),
                 SizedBox(height: 24),
                 Text(
-                  "Welcome to Bubble, the innovative new app that connects people through location-based group chats. Whether you're at a concert, a sports event, or simply exploring your city, Bubble allows you to create or join group conversations with those around you.Leveraging technologies such as GPS, Wi-Fi, NFC, and Bluetooth, Bubble ensures you're connecting with people in your immediate vicinity. Create a group chat and control who can join, using a password or specific device connection. Looking for a group to join? Our interactive map shows local group chats, color-coded for your convenience.",
+                  "Welcome to Bubble, the innovative new app that connects people through location-based group chats. Whether you're at a concert, a sports event, or simply exploring your city, Bubble allows you to create or join group conversations with those around you.",
+                  style: TextStyle(fontSize: 18),
+                ),
+                SizedBox(height: 24),
+                RichText(
+                  text: TextSpan(
+                    style: DefaultTextStyle.of(context).style,
+                    children: <TextSpan>[
+                      TextSpan(
+                          text: "Leveraging technologies such as ",
+                          style: TextStyle(fontSize: 18)),
+                      TextSpan(
+                          text: 'GPS',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 18)),
+                      TextSpan(text: ", ", style: TextStyle(fontSize: 18)),
+                      TextSpan(
+                          text: 'Wi-Fi',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 18)),
+                      TextSpan(text: ", ", style: TextStyle(fontSize: 18)),
+                      TextSpan(
+                          text: 'NFC',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 18)),
+                      TextSpan(text: ", and ", style: TextStyle(fontSize: 18)),
+                      TextSpan(
+                          text: 'Bluetooth',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 18)),
+                      TextSpan(
+                          text:
+                              ", Bubble ensures you're connecting with people in your immediate vicinity. Create a group chat and control who can join, using a password or specific device connection. Looking for a group to join? Our interactive map shows local group chats, color-coded for your convenience.",
+                          style: TextStyle(fontSize: 18)),
+                    ],
+                  ),
                 ),
                 SizedBox(height: 24),
                 Text(
-                  "Welcome to Bubble, the innovative new app that connects people through location-based group chats. Whether you're at a concert, a sports event, or simply exploring your city, Bubble allows you to create or join group conversations with those around you.Leveraging technologies such as GPS, Wi-Fi, NFC, and Bluetooth, Bubble ensures you're connecting with people in your immediate vicinity. Create a group chat and control who can join, using a password or specific device connection. Looking for a group to join? Our interactive map shows local group chats, color-coded for your convenience.",
-                ),
-                SizedBox(height: 24),
-                Text(
-                  "Welcome to Bubble, the innovative new app that connects people through location-based group chats. Whether you're at a concert, a sports event, or simply exploring your city, Bubble allows you to create or join group conversations with those around you.Leveraging technologies such as GPS, Wi-Fi, NFC, and Bluetooth, Bubble ensures you're connecting with people in your immediate vicinity. Create a group chat and control who can join, using a password or specific device connection. Looking for a group to join? Our interactive map shows local group chats, color-coded for your convenience.",
-                ),
+                  "Looking for a group to join? Our interactive map shows local group chats, color-coded for your convenience.",
+                  style: TextStyle(fontSize: 18),
+                )
               ],
             ),
           )
@@ -77,17 +109,48 @@ class MobileHomeContent extends StatelessWidget {
           ),
           SizedBox(height: 24),
           Text(
-            "Welcome to Bubble, the innovative new app that connects people through location-based group chats. Whether you're at a concert, a sports event, or simply exploring your city, Bubble allows you to create or join group conversations with those around you.Leveraging technologies such as GPS, Wi-Fi, NFC, and Bluetooth, Bubble ensures you're connecting with people in your immediate vicinity. Create a group chat and control who can join, using a password or specific device connection. Looking for a group to join? Our interactive map shows local group chats, color-coded for your convenience.",
+            "Welcome to Bubble, the innovative new app that connects people through location-based group chats. Whether you're at a concert, a sports event, or simply exploring your city, Bubble allows you to create or join group conversations with those around you.",
+            style: TextStyle(fontSize: 20),
+          ),
+          SizedBox(height: 24),
+          RichText(
+            text: TextSpan(
+              style: DefaultTextStyle.of(context).style,
+              children: <TextSpan>[
+                TextSpan(
+                    text: "Leveraging technologies such as ",
+                    style: TextStyle(fontSize: 20)),
+                TextSpan(
+                    text: 'GPS',
+                    style:
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
+                TextSpan(text: ", ", style: TextStyle(fontSize: 20)),
+                TextSpan(
+                    text: 'Wi-Fi',
+                    style:
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
+                TextSpan(text: ", ", style: TextStyle(fontSize: 20)),
+                TextSpan(
+                    text: 'NFC',
+                    style:
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
+                TextSpan(text: ", and ", style: TextStyle(fontSize: 20)),
+                TextSpan(
+                    text: 'Bluetooth',
+                    style:
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
+                TextSpan(
+                    text:
+                        ", Bubble ensures you're connecting with people in your immediate vicinity. Create a group chat and control who can join, using a password or specific device connection. Looking for a group to join? Our interactive map shows local group chats, color-coded for your convenience.",
+                    style: TextStyle(fontSize: 20)),
+              ],
+            ),
           ),
           SizedBox(height: 24),
           Text(
-            "Welcome to Bubble, the innovative new app that connects people through location-based group chats. Whether you're at a concert, a sports event, or simply exploring your city, Bubble allows you to create or join group conversations with those around you.Leveraging technologies such as GPS, Wi-Fi, NFC, and Bluetooth, Bubble ensures you're connecting with people in your immediate vicinity. Create a group chat and control who can join, using a password or specific device connection. Looking for a group to join? Our interactive map shows local group chats, color-coded for your convenience.",
+            "Looking for a group to join? Our interactive map shows local group chats, color-coded for your convenience.",
+            style: TextStyle(fontSize: 20),
           ),
-          SizedBox(height: 24),
-          Text(
-            "Welcome to Bubble, the innovative new app that connects people through location-based group chats. Whether you're at a concert, a sports event, or simply exploring your city, Bubble allows you to create or join group conversations with those around you.Leveraging technologies such as GPS, Wi-Fi, NFC, and Bluetooth, Bubble ensures you're connecting with people in your immediate vicinity. Create a group chat and control who can join, using a password or specific device connection. Looking for a group to join? Our interactive map shows local group chats, color-coded for your convenience.",
-          ),
-          SizedBox(height: 24),
           Image.asset(
             'assets/images/app_screen.png',
             height: 350,

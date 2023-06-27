@@ -26,8 +26,8 @@ class MyWebPage extends HookConsumerWidget {
     }
   }
 
-  void scrollTo(GlobalKey key) =>
-      Scrollable.ensureVisible(key.currentContext!, duration: Duration(milliseconds: 500));
+  void scrollTo(GlobalKey key) => Scrollable.ensureVisible(key.currentContext!,
+      duration: Duration(milliseconds: 500));
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -39,12 +39,12 @@ class MyWebPage extends HookConsumerWidget {
       return _controller.dispose;
     }, [_controller]);
 
-
     double width = MediaQuery.of(context).size.width;
     double maxWith = width > 1200 ? 1200 : width;
 
-    ref.watch(currentPageProvider.state).addListener(scrollTo, fireImmediately: false);
-
+    ref
+        .watch(currentPageProvider.state)
+        .addListener(scrollTo, fireImmediately: false);
 
     return Scaffold(
       backgroundColor: Colors.white,
@@ -62,7 +62,6 @@ class MyWebPage extends HookConsumerWidget {
                       HomeContent(key: homeKey),
                       FeaturesContent(key: featureKey),
                       ScreenshotsContent(key: screenshotKey),
-                      ContactContent(key: contactKey),
                       SizedBox(height: 50)
                     ],
                   ),

@@ -61,11 +61,6 @@ class DesktopNavBar extends HookConsumerWidget {
                   ref.read(currentPageProvider.state).state = screenshotKey,
               text: "Screenshots",
             ),
-            NavBarButton(
-              onTap: () =>
-                  ref.read(currentPageProvider.state).state = contactKey,
-              text: "Contact",
-            ),
           ],
         ),
       ),
@@ -110,13 +105,6 @@ class MobileNavBar extends HookConsumerWidget {
                   text: "Screenshots",
                   onTap: () {
                     ref.read(currentPageProvider.state).state = screenshotKey;
-                    containerHeight.value = 0;
-                  },
-                ),
-                NavBarButton(
-                  text: "Contact",
-                  onTap: () {
-                    ref.read(currentPageProvider.state).state = contactKey;
                     containerHeight.value = 0;
                   },
                 ),

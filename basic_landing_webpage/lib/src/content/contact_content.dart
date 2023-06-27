@@ -28,10 +28,10 @@ class DesktopContactContent extends StatelessWidget {
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
     return Container(
-      color: Colors.blue,
+      color: ui.Color.fromARGB(255, 255, 255, 255),
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 24, horizontal: 24),
-        child: Row(
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Container(
@@ -68,10 +68,10 @@ class MobileContactContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.blue,
+      color: ui.Color.fromARGB(255, 255, 255, 255),
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 24, horizontal: 24),
-        child: Column(
+        child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
